@@ -24,6 +24,31 @@
       "tools": "tools"
     }
   },
+  "mire_train": {
+    "file_name": "mire/train/train.json",
+    "columns": {
+      "images": "image",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "mire_test": {
+    "file_name": "mire/test1/test1.json",
+    "columns": {
+      "images": "image",
+      "prompt": "instruction",
+      "query": "input"
+    }
+  },
+  "mire_test_mini": {
+    "file_name": "mire/test1/test1_100.json",
+    "columns": {
+      "images": "image",
+      "prompt": "instruction",
+      "query": "input"
+    }
+  },
   "mllm_demo": {
     "file_name": "mllm_demo.json",
     "formatting": "sharegpt",

@@ -33,6 +33,15 @@
       "response": "output"
     }
   },
+  "mire_train_augment": {
+    "file_name": "mire/train-augment/train.json",
+    "columns": {
+      "images": "image",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "mire_test": {
     "file_name": "mire/test1/test1.json",
     "columns": {
